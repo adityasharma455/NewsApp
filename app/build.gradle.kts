@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -10,6 +13,13 @@ android {
     namespace = "com.example.newsapp"
     compileSdk = 35
 
+    val localProperties = Properties()
+    val localPropertiesFile = rootProject.file("local.properties")
+    if(localPropertiesFile.exists()){
+        localProperties.load(FileInputStream(localPropertiesFile))
+    }
+
+    val myApikey = localProperties.getProperty("NEWS_API_KEY") ?: ""
     defaultConfig {
         applicationId = "com.example.newsapp"
         minSdk = 28
@@ -18,6 +28,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "API_KEY", "\"$myApikey\"")
     }
 
     buildTypes {
@@ -38,6 +50,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
