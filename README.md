@@ -50,11 +50,11 @@ Retrofit API
 
 | Home | Categories | Search |
 |-----|------------|--------|
-| ![Home](screenshots/Home.jpeg) | ![Categories](screenshots/News Category Screen.jpeg) | ![Search](screenshots/Search Screen.jpeg) |
+| ![Home](screenshots/Home.jpeg) | ![Categories](screenshots/NewsCategoryScreen.jpeg) | ![Search](screenshots/SearchScreen.jpeg) |
 
 | News List | News Details |
 |----------|--------------|
-| ![List](screenshots/Home.jpeg) | ![Details](screenshots/Detailed News.jpeg) |
+| ![List](screenshots/Home.jpeg) | ![Details](screenshots/DetailedNews.jpeg) |
 
 ---
 
