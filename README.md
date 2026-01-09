@@ -50,7 +50,7 @@ Retrofit API
 
 | Home | Categories | Search |
 |-----|------------|--------|
-| ![Home](screenshots/home.jpg) | ![Categories](screenshots/category.jpg) | ![Search](screenshots/search.jpg) |
+| ![Home](screenshots/Home.jpeg) | ![Categories](screenshots/category.jpg) | ![Search](screenshots/search.jpg) |
 
 | News List | News Details |
 |----------|--------------|
