@@ -50,16 +50,16 @@ Retrofit API
 
 | Home | Categories | Search |
 |-----|------------|--------|
-| ![Home](screenshots/Home.jpeg) | ![Categories](screenshots/category.jpg) | ![Search](screenshots/search.jpg) |
+| ![Home](screenshots/Home.jpeg) | ![Categories](screenshots/News Category Screen.jpeg) | ![Search](screenshots/Search Screen.jpeg) |
 
 | News List | News Details |
 |----------|--------------|
-| ![List](screenshots/list.jpg) | ![Details](screenshots/detail.jpg) |
+| ![List](screenshots/Home.jpeg) | ![Details](screenshots/Detailed News.jpeg) |
 
 ---
 
 ## 🎥 Demo Video
-👉 [Watch Demo Video](Demo/demo.mp4)
+👉 [Watch Demo Video](demo/Demo.mp4)
 
 ---
 
