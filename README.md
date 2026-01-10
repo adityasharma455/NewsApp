@@ -73,3 +73,44 @@ Retrofit API
 (Recommended using local.properties or BuildConfig)
 
 4. Run the app on emulator or physical device
+
+
+🔐 API Key Setup
+
+For security reasons, do not hardcode API keys.
+
+Use:
+
+ * local.properties
+
+ * or BuildConfig
+
+
+🚧 Limitations
+
+ * No Dependency Injection
+
+ * No Clean Architecture layers
+
+ * No offline caching
+
+ * Basic error handling
+
+These were intentionally skipped to keep the project beginner-friendly.
+
+
+🔮 Future Improvements
+
+ * Add Dependency Injection (Hilt)
+
+ * Implement Clean Architecture
+
+ * Offline caching using Room
+   
+
+👨‍💻 Author
+
+Aditya Sharma
+Android Developer | Jetpack Compose
+
+🔗 GitHub: https://github.com/adityasharma455
